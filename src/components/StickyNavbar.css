@@ -1,0 +1,36 @@
+.content {
+    background-color: #f5c542;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .menu-item {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .menu-item:hover {
+    background-color: #ddd;
+  }
+  
+  .menu-item.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
