@@ -3,8 +3,7 @@ import "./Contact.css";
 
 import asktiveLogo from "../assets/asktive_logo.jpg"
 
-// idea 1: card : agent wa number, ig, other socials
-// idea 2: contact form
+// jadi form
 
 const Contact: React.FC = () => {
   return (

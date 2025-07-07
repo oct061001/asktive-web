@@ -1,6 +1,10 @@
 import React from "react";
 import "./About.css";
 
+//tampilin agent2
+//mobile scroll bawah
+//web card 2x2
+
 const About: React.FC = () => {
   return (
     <div className="about">

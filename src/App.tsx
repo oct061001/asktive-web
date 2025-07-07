@@ -7,13 +7,12 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home"
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   // let items = ["Lorem", "Ipsum", "OO", "II", "AA"];
   // let menus = ["Home", "About Us", "Contact us!"];
   return (
-    //stickynavbar debug
-    <div style={{ height: "2000px" }}>
     <Router>
       <Navbar />
       <Routes>
@@ -21,9 +20,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
-    {/* <ListGroup items={items} heading="First Fullstack Project" /> */}
-    </div>
   );
 };
 
