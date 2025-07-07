@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
   const menus: NavMenu[] = [
     { label: "Home", path: "/" },
     { label: "About", path: "/about" },
-    { label: "Contact Us!", path: "/contact-us" },
+    { label: "Contact Us", path: "/contact-us" },
   ];
 
   // Mount the Event Listener on loading the site
@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
         </nav>
       </div>
       {/* To prevent the next content to "jump" behind the navbar */}
-      <div style={sticky ? { marginTop: navHeight } : {}}></div>
+      <div style={sticky ? { height: navHeight } : {}}></div>
     </>
   );
 };

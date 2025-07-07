@@ -1,13 +1,15 @@
 import React from "react";
-import "./Home.css"; // Optional: Add styles specific to the Home page.
+import "./Home.css";
 
 import asktiveLogo from "../assets/asktive_logo.jpg"
+
+//  our services nanti tampilin
 
 const Home: React.FC = () => {
   return (
     <div className="home">
       <header className="home-header">
-        <h1><img src={asktiveLogo} alt="asktive-logo" /></h1>
+        <h1><img src={asktiveLogo} alt="asktive-logo" className="asktive-logo"/></h1>
         <p>virtual agency, at your service.</p>
       </header>
       <section className="home-content">
