@@ -16,8 +16,8 @@ const Footer: React.FC = () => {
           {/* <a href="#">Privacy Policy</a> */}
         </div>
         <div className="footer-social">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.instagram.com/ask.tive/#" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="http://wa.me/+628161487776?text=Hi%20Asktive!%20I'm%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer">Whatsapp</a>
         </div>
       </div>
     </footer>
