@@ -19,6 +19,7 @@ const Navbar: React.FC = () => {
 
   const menus: NavMenu[] = [
     { label: "Home", path: "/" },
+    { label: "Portfolio", path: "/portfolio" },
     { label: "About", path: "/about" },
     { label: "Contact Us", path: "/contact-us" },
   ];

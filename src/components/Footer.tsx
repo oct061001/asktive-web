@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../assets/logotest.png"; // reuse your logo
+import logo from "../assets/logotest.png";
 
 const Footer: React.FC = () => {
   return (
@@ -13,7 +13,6 @@ const Footer: React.FC = () => {
         <div className="footer-links">
           <a href="/about">About</a>
           <a href="/contact-us">Contact</a>
-          {/* <a href="#">Privacy Policy</a> */}
         </div>
         <div className="footer-social">
           <a href="https://www.instagram.com/ask.tive/#" target="_blank" rel="noopener noreferrer">Instagram</a>
